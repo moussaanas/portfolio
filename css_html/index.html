@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mein Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Header / Navigation -->
+  <header>
+    <nav>
+      <h1>Anas Moussa</h1>
+      <ul>
+        <li><a href="#about">Über mich</a></li>
+        <li><a href="#projects">Projekte</a></li>
+        <li><a href="#contact">Kontakt</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Hero Bereich -->
+    <section class="hero">
+      <h2>Hi, ich bin Anas 👋</h2>
+      <p>Angehender Webentwickler – ich liebe HTML & CSS!</p>
+    </section>
+
+    <!-- Über mich -->
+    <section id="about">
+      <h2>Über mich</h2>
+      <p>
+        Ich bin Schüler/Auszubildender und interessiere mich für Webentwicklung.
+        Mein Ziel ist es, ein Praktikum zu finden, um mehr über die Arbeit
+        in echten Projekten zu lernen.
+      </p>
+    </section>
+
+    <!-- Projekte -->
+    <section id="projects">
+      <h2>Projekte</h2>
+
+      <!-- Projekt 1: Visitenkarte -->
+      <div class="project-card">
+        <h3>Projekt 1: Visitenkarte mit Flexbox</h3>
+        <div class="card">
+          <img src="anas.jpeg" alt="Profilbild">
+          <div class="info">
+            <h2>Max Mustermann</h2>
+            <p>Webentwicklung • HTML & CSS • Praktikumssuchend</p>
+          </div>
+        </div>
+        <p class="desc">Flexbox genutzt, um eine Visitenkarte zu gestalten, die Inhalte nebeneinander anordnet.</p>
+      </div>
+
+      <!-- Projekt 2: Kontaktformular -->
+      <div class="project-card">
+        <h3>Projekt 2: Kontaktformular mit CSS</h3>
+        <form class="kontakt-formular">
+          <label for="name">Name</label>
+          <input type="text" id="name" placeholder="Dein Name">
+
+          <label for="email">E-Mail</label>
+          <input type="email" id="email" placeholder="deine@mail.de">
+
+          <label for="nachricht">Nachricht</label>
+          <textarea id="nachricht" rows="4" placeholder="Deine Nachricht..."></textarea>
+
+          <button type="submit">Absenden</button>
+        </form>
+      </div>
+
+      <!-- Projekt 3: Landingpage -->
+      <div class="project-card">
+        <h3>Projekt 3: Landingpage für eine fiktive App</h3>
+        <div class="landing-page">
+          <h4>SuperApp</h4>
+          <p>Die App, die dir das Leben leichter macht!</p>
+          <button>Jetzt ausprobieren</button>
+          <img src="https://via.placeholder.com/250x150" alt="Screenshot SuperApp">
+        </div>
+      </div>
+
+    </section>
+
+    <!-- Kontakt -->
+    <section id="contact">
+      <h2>Kontakt</h2>
+      <p>Schreib mir: <a href="mailto:Moussaanas@outlook.de">Moussaanas@outlook.de</a></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Anas Moussa</p>
+  </footer>
+</body>
+</html>
